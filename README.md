@@ -1,73 +1,58 @@
-# Welcome to your Lovable project
+# 🌊 Aqua Guardian
 
-## Project info
+Aqua Guardian is a project focused on monitoring and protecting water resources using Machine Learning and AI.  
+It helps in detecting, classifying, and analyzing water pollution through datasets and models like **CNN** and **Random Forest**.
 
-**URL**: https://lovable.dev/projects/88e1c9ac-1089-4716-bae0-c4bd919eaae8
+---
 
-## How can I edit this code?
+## 🚀 Features
+- Detects pollution in water bodies using image datasets.
+- Predicts and classifies water quality using ML algorithms.
+- Supports both **CNN (deep learning)** and **Random Forest (ML)** models.
+- Can be integrated with real-time monitoring systems.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🛠️ Technologies Used
+- Python 🐍  
+- TensorFlow / Keras (for CNN model)  
+- Scikit-learn (for Random Forest)  
+- Pandas, NumPy (data processing)  
+- Matplotlib, Seaborn (visualization)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/88e1c9ac-1089-4716-bae0-c4bd919eaae8) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 📂 Dataset
+- NASA Marine Debris dataset from Kaggle.  
+- Future integration with **Indian river datasets (Gujarat focus)**.
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 📊 Models Implemented
+1. **CNN Model** → for image-based water pollution detection.  
+2. **Random Forest Model** → for structured data pollution classification.  
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 📸 Sample Workflow
+1. Collect water quality data / images.  
+2. Preprocess the dataset.  
+3. Train CNN & Random Forest models.  
+4. Evaluate accuracy and performance.  
+5. Deploy for real-time predictions.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🎯 Future Scope
+- Real-time water quality monitoring using IoT sensors.  
+- Integration with government databases for environmental tracking.  
+- Mobile app interface for public awareness.  
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 👩‍💻 Author
+**Urvashi Vankar**  
+(Owner of the Aqua Guardian project 🌊)
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/88e1c9ac-1089-4716-bae0-c4bd919eaae8) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
